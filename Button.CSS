@@ -1,0 +1,60 @@
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f17108;
+    width: 0px;
+    overflow: hidden;
+    position: relative;
+    transition: width 2s;
+    transition-timing-function:ease-in-out ;
+}
+.ChipHover {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f17108;
+    width: 140px;
+    overflow: hidden;
+    position: relative;
+    transition: width 2s;
+    transition-timing-function:ease-in-out ;
+}
+/* .chip:hover {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color:  #f17108;
+    width: 140px;
+    overflow: hidden;
+    position: relative;
+    transition: width 2s;
+    transition-timing-function:ease-in-out ;
+} */
+.chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.closebtn {
+    padding-left: 10px;
+    color: #888;
+    font-weight: bold;
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+}
+.closebtn:hover {
+    color: #000;
+}
